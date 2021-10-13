@@ -1,0 +1,40 @@
+/* generali */
+* {
+    padding: 0;  
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* [class*="col"] {
+      min-height: 50px;
+      background-color: rgb(166, 255, 0);
+      border: 1px solid black;
+  } */
+
+  /* header */
+  
+  /* barra nera sony */
+  .barra-logo {
+      height: 30px;
+      background-color: black;
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .barra-logo img {
+      width: 60px;
+      margin-right: 10px;
+  }
+
+  /* nav */
+
+
+  /* nav destra */
+
+  .btn-secondary {
+      margin: 0 10px;
+      border-radius: 25px;
+  }
+  .search img {
+      width: 35px;
+  }
