@@ -3,38 +3,89 @@
     padding: 0;  
     margin: 0;
     box-sizing: border-box;
-  }
+}
   
-  /* [class*="col"] {
-      min-height: 50px;
-      background-color: rgb(166, 255, 0);
-      border: 1px solid black;
-  } */
+[class*="col"] {
+    min-height: 50px;
+    background-color: rgb(166, 255, 0);
+    border: 1px solid black;
+}
 
   /* header */
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
   
   /* barra nera sony */
-  .barra-logo {
-      height: 30px;
-      background-color: black;
-      display: flex;
-      justify-content: flex-end;
-  }
+.barra-logo {
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
 
-  .barra-logo img {
-      width: 60px;
-      margin-right: 10px;
-  }
+.barra-logo img {
+    width: 60px;
+    margin-right: 10px;
+}
 
   /* nav */
 
 
   /* nav destra */
 
-  .btn-secondary {
-      margin: 0 10px;
-      border-radius: 25px;
-  }
-  .search img {
-      width: 35px;
-  }
+.btn-secondary {
+    margin: 0 10px;
+    border-radius: 25px;
+}
+.search img {
+    width: 35px;
+}
+
+  /* jumbo */
+.jumbo-sfondo {
+    position: relative;
+    margin-top: 100px;
+}
+.jumbo-sfondo .jumbo-img {
+    height: 675px;
+    width: 100%;
+    object-fit: cover;
+}
+.testo {
+    color: white;
+    height: 100%;
+    max-width: 35%;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.title-game {
+    width: 274px;
+    margin-bottom: 50px;
+}
+
+.title-description {
+    margin-bottom: 30px;
+    width: 275px;
+}
+
+.description {
+    width: 283px;
+}
+
+.orange {
+    background-color: orange;
+    width: 158px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
