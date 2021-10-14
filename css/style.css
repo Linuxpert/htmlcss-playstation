@@ -160,3 +160,72 @@ header {
     height: 100%;
     border-radius: 15px;
 }
+
+/* it takes two */
+.game2-sfondo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+    width: 100%;
+    margin-top: 110px;
+}
+
+.testo {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    
+}
+
+.title-game {
+    width: 274px;
+    margin-bottom: 50px;
+}
+
+.title-description {
+    margin-bottom: 30px;
+    width: 275px;
+}
+
+.description {
+    width: 283px;
+}
+
+.orange {
+    background-color: orange;
+    width: 158px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+/* giochi  */
+
+#sfondo-giochi {
+    background-color: rgb(49, 49, 49);
+    min-height: 515px;
+}
+
+.quadrato {
+    width: 150px;
+    height: 150px;
+}
+
+.quadrato img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.col h5 {
+    color: white;
+    font-size: 15px;
+}
+
+.titolo h1,h2 {
+    color: white;
+}
+
