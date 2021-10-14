@@ -241,3 +241,115 @@ header {
     width: 100%;
     height: 100%;
 }
+
+/* playstation plus */
+.sfondo-plus {
+    background-color: rgb(179, 177, 177);
+    margin-top: 50px;
+}
+
+
+.plus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.plus h3 {
+    font-size: 17px;
+}
+.img-plus {
+    width: 70%;
+}
+.img-plus img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.grigio {
+    background-color: lightgray;
+    color: blue;
+
+}
+
+
+.img-sconti {
+    width: 70%;
+    
+}
+.img-sconti img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* nuovi sconti */
+.img-nuovi-sconti {
+    width: 301px;
+    height: 301px;
+    margin: 10px 0;
+    
+}
+.img-nuovi-sconti img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.nuovi-sconti {
+    display: flex;
+    justify-content: center;
+}
+
+/* play now */
+.sfondo-now {
+    background-color: rgb(17, 15, 134);
+    margin-top: 50px;
+}
+
+.bianco {
+    background-color: white;
+    color: black;
+}
+
+.img-now {
+    width: 70%;
+    
+}
+.img-now img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.img-now-grande {
+    width: 70%;
+}
+.img-now-grande img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* media query */
+@media all and (max-width: 575px) {
+    .scomparire {
+        display: none;
+    }
+}
+
+/* social */
+#social-text {
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.quadrato-social {
+    width: 70%;
+    margin: 10px 0;
+}
+.quadrato-social img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
