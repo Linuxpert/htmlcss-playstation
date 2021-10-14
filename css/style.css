@@ -122,7 +122,10 @@ header {
     align-items: center;
 }
 
-
+.play {
+    display: flex;
+    justify-content: center;
+}
 .blu {
     background-color: blue;
     color: white;
@@ -135,4 +138,25 @@ header {
 .center {
     display: flex;
     justify-content: center;
+}
+
+/* items */
+
+.items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.blubottom {
+    border-bottom: 1px solid blue;
+}
+.mini-items {
+    width: 100px;
+    height: 100px;
+}
+.mini-items img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
