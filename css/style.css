@@ -353,3 +353,21 @@ header {
     width: 100%;
     height: 100%;
 }
+
+/* footer */
+#sfondo-footer {
+    background-color: blue;
+}
+
+.svg {
+    filter: brightness(0) invert(1);
+    width: 28%;
+}
+#sfondo-footer .container .row .col nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#sfondo-footer .container .row .col nav ul li {
+    list-style-type: none;
+}
