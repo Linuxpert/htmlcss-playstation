@@ -359,6 +359,10 @@ header {
     background-color: blue;
 }
 
+.spazio {
+    margin-top: 30px;
+}
+
 .svg {
     filter: brightness(0) invert(1);
     width: 28%;
@@ -370,4 +374,21 @@ header {
 
 #sfondo-footer .container .row .col nav ul li {
     list-style-type: none;
+}
+.regione {
+    color: white;
+}
+
+.sie-logo {
+    width: 12%;
+}
+
+.sie-article {
+    color: white;
+    width: 50%;
+}
+
+.sie-article a {
+    /* text-decoration: none; */
+    color: white;
 }
