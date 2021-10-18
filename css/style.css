@@ -7,8 +7,8 @@
   
 [class*="col"] {
     min-height: 50px;
-    background-color: rgb(166, 255, 0);
-    border: 1px solid black;
+    /* background-color: rgb(166, 255, 0);
+    border: 1px solid black; */
 }
 
   /* header */
@@ -94,6 +94,11 @@ header {
     margin-top: 30px;
 }
 
+#selected {
+    border: 1px solid blue;
+    padding: 2px;
+}
+
 .giochi img {
     object-fit: cover;
     width: 100%;
@@ -159,6 +164,13 @@ header {
     width: 100%;
     height: 100%;
     border-radius: 15px;
+    opacity: .5;
+}
+.mini-items img:hover {
+    opacity: 1;
+}
+.primopiano img {
+    opacity: 1;
 }
 
 /* it takes two */
@@ -256,19 +268,23 @@ header {
 }
 .plus h3 {
     font-size: 17px;
+    margin-bottom: 20px;
 }
 .img-plus {
-    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .img-plus img {
     object-fit: cover;
-    width: 100%;
+    width: 60%;
     height: 100%;
 }
 
 .grigio {
     background-color: lightgray;
     color: blue;
+    width: 40%;
 
 }
 
@@ -310,15 +326,23 @@ header {
 .bianco {
     background-color: white;
     color: black;
+    width: 40%;
 }
 
+.now h3 {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 20px;
+}
 .img-now {
-    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     
 }
 .img-now img {
     object-fit: cover;
-    width: 100%;
+    width: 60%;
     height: 100%;
 }
 .img-now-grande {
@@ -381,6 +405,7 @@ header {
 
 .sie-logo {
     width: 12%;
+    margin-bottom: 15px;
 }
 
 .sie-article {
